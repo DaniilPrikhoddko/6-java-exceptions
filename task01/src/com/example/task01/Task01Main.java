@@ -10,6 +10,7 @@ public class Task01Main {
     }
 
     static void codeWithNPE() {
-        //todo напишите здесь свою корректную реализацию этого метода, вместо существующей
+        Integer[] array = new Integer[1];
+        System.out.println(array[0].intValue());
     }
 }
